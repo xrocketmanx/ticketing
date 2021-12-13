@@ -3,7 +3,6 @@ import { app } from './app';
 import { envVariablesManager } from '@amirov-tickets/common';
 
 const start = async () => {
-    console.log('Starting up...');
     envVariablesManager.validateVariables(['JWT_KEY', 'MONGO_URI']);
 
     try {
