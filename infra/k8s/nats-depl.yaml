@@ -15,7 +15,6 @@ spec:
       containers:
         - name: nats
           image: nats-streaming:0.17.0
-          imagePullPolicy: Never
           args: [
             '-p',
             '4222',
