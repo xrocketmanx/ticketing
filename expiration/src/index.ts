@@ -21,6 +21,8 @@ const start = async () => {
     } catch (err) {
         console.error(err);
     }
+
+    console.log('Started up successfully');
 };
 
 start();
